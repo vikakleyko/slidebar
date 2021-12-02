@@ -6,8 +6,84 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  box-sizing: border-box;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  text-align: center;
+}
+.wrapper {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+{/* slider */}
+.sliderContainer {
+  padding: 15px 12px 6px 12px;
+  background-color: #222;
+  border-radius: 999px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 600px;
+  height: 7px;
+  background: #484747;
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  margin-top: -12px;
+}
+.slider::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  margin-top: -12px;
+}
+.rangeList {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 20px;
+}
+.rangeOption {
+  opacity: 0.2;
+}
+{/* step style onfocus*/}
+.focusOption {
+  opacity: 1;
+}
+
+{/* ticks */}
+.ticks {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: -15px;
+  padding: 0 15px;
+}
+.tick {
+  width: 2px;
+  background: #484747;
+  height: 18px;
+  margin-bottom: 14px;
+}
+.hideTick {
+  opacity: 0;
 }
