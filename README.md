@@ -1,3 +1,7 @@
+Implemented component
+
+![ischemaview_sliderbar](https://user-images.githubusercontent.com/24653549/144341304-782c3d46-95fe-4aff-a784-d88d9069fe1d.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
